@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Game" parent="android:Theme.Material.Light.DarkActionBar" >
+        <item name="android:colorPrimary">@color/green</item>
+        <item name="android:colorPrimaryDark">@color/green</item>  //used for setting colour of status bar and navigation
+        <item name="android:colorAccent">@color/green</item>
+    </style>
+    <style name="Theme.GamePage" parent="android:Theme.Material.Light.DarkActionBar">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="android:colorPrimaryDark">@color/blue</item>
+        <item name="android:colorAccent">@color/blue</item>
+    </style>
+
+    <style name="Theme.ResultPage" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="colorPrimary">@color/ice_blue</item>
+        <item name="android:colorPrimaryDark">@color/ice_blue</item>
+        <item name="android:colorAccent">@color/ice_blue</item>
+    </style>
+</resources>
